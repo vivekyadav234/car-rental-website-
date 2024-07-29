@@ -1,0 +1,45 @@
+
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+}
+
+/* Style for the title */
+.card-title {
+    text-align: center;
+}
+
+/* Style for the buttons */
+.btn {
+    margin-bottom: 10px;
+}
+
+/* Style for the form inputs */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Style for the login button */
+.btn-warning {
+    border-radius: 5px;
+}
+
+/* Style for the forgot password link */
+.small {
+    font-size: 12px;
+}
+
+/* Optional: Adjust styles for social media login buttons */
+.btn-outline-info, .btn-outline-primary {
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Optional: Add margin between social media login buttons */
+.btn-outline-info + .btn-outline-primary {
+    margin-top: 10px;
+}
